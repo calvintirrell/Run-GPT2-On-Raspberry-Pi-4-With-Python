@@ -140,7 +140,7 @@ gpt2.generate(interactive=True)
 # 14) Final Notes: a) To close out of the 'testpip' virtualenv use: 
 deactivate
 
-#b) To delete 'testpip' virtualenv and everything in it use:
+# b) To delete 'testpip' virtualenv and everything in it use:
 rm -rf testpip/
 
 # ==============================================================================
