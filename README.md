@@ -1,2 +1,2 @@
-# Run-GPT2-On-Raspberry-Pi-4-With-Python
-Detailed set of instructions, Python code and links/resources - see the code file with comments for the step by step process!
+# Run the GPT2 model on a Raspberry Pi 4 with Python
+The code file has the detailed set of instructions, Python code and links/resources I used and referenced to get this working!
