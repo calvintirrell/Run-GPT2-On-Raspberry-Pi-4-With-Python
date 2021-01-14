@@ -134,7 +134,7 @@ gpt2.generate(interactive=True)
 # Scotland has said that in the UK, it would be impossible for any legislation that affects immigration policy (such as changes to the immigration rules) to be passed by Parliament without it first first securing the backing of the European Commission (which is in charge). Therefore, all other EU government ministers and the British government would need to become "partners" in any legislation.
 # The EU also has a "strategic partnership" with the UK which includes issues relating to migration that the government doesn't want to touch."
 
-# g) The result I received above is based on no trainging or settings for the GPT2 model. Just gave it a prompt and let it run for 20-30 minutes.
+# g) The result I received above is based on no training or settings for the GPT2 model. Just gave it a prompt and let it run for 20-30 minutes.
 # The very bottom link I referred to has more information on working with the GPT2 model via the Client wrapper like: how many pieces of text to create.
 
 # 14) Final Notes: a) To close out of the 'testpip' virtualenv use: 
