@@ -97,7 +97,15 @@ from gpt2_client import GPT2Client
 # c) Then type:
 gpt2 = GPT2Client('345M')
 # (The less ram you have you may want to use a smaller model; I have 4gb ram)
-# (Other model options are '117M', '774M' or the largest at '1558M')
+# (Other model options: '117M', '774M' or the largest at '1558M')
+
+# Use the following line of code the first time you are using each of the model options:
+gpt2.load_model(force_download=True)
+# This downloads the different model sizes the first time that you use each of the sizes.
+# Use this line to re-download the same model size over your existing download of that model.
+
+# Once the '345M' model is downloaded, the next time you use the 345M model you type:
+gpt2.load_model(force_download=False)
 
 # d) Now type:
 gpt2.generate(interactive=True)
